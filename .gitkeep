@@ -1,3 +1,0 @@
-cd /d D:\GitHub\sample_projects\banking_doc_classification
-type NUL > models\.gitkeep
-type NUL > data\.gitkeep
