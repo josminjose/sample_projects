@@ -1,0 +1,48 @@
+Banking Document Classification Using DistilBERT (Deep Learning)
+
+Overview:
+
+The solution classifies banking documents into categories: Loan Approval, Dispute Form, and Account Management using a transformer-based model (DistilBERT).
+
+Technical Workflow:
+-------------------------
+
+1. Data Collection & Preparation:
+
+Synthetic datasets generated to represent banking documents.
+
+Data cleaning: Text normalization, removal of special characters, lowercase conversion.
+
+2. Tokenization & Encoding:
+
+Utilizes HuggingFace's DistilBertTokenizerFast to convert text into tokenized inputs compatible with transformer models.
+
+3. Model Selection (DistilBERT):
+
+Transformer-based model (distilbert-base-uncased) selected for its lightweight, fast inference, and high accuracy on NLP tasks.
+
+4. Model Training & Evaluation:
+
+Implemented using TensorFlow and HuggingFace Transformers.
+
+Trained for multiple epochs, validated on test data.
+
+5. Metrics: Precision, Recall, F1-score, and Accuracy computed using sklearn.
+
+6. Deployment & Inference:
+
+Model and tokenizer serialized and stored.
+
+Inference script for processing new data efficiently.
+
+7. Technological Stack:
+
+Programming Language: Python 3.11
+
+Libraries: TensorFlow, Transformers (DistilBERT), Pandas, scikit-learn
+
+8. Deployment: Local/Cloud (exportable TensorFlow model)
+
+9. Performance Evaluation:
+
+
