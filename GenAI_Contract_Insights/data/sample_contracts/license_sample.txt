@@ -1,0 +1,8 @@
+SOFTWARE LICENSE AGREEMENT
+
+Between: Gamma Inc and Delta Solutions Ltd
+Effective Date: 2023-09-01
+
+Invoice Terms: Net 30.
+Liability Cap: $5,000,000 total.
+Termination: For cause by either party upon material breach with 15 days cure period.
